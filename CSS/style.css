@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+.landing{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2.1vmax;
+
+  
+}
+
+.landing h1{
+margin-bottom: 5px;
+font-size: 2.5vmax;
+
+  
+}
+.landing button{
+  padding: 1vmax 2.3vmax;
+  margin: 10px 0px 0px 0px;
+}
+.landing input{
+    margin: 0.4vmax;
+    padding: 0.6vmax 5vmax;
+    font-size: 1.5vmax;
+  }
+.container{
+    display: flex;
+}
+
+.card-1 {
+    margin: 0.4vmax;
+    display: flex;
+    flex-direction: column;
+
+}
+.card-2 {
+    margin: 0.4vmax;
+    display: flex;
+    flex-direction: column;
+}
+.card-1 select{
+    padding: 0.6vmax 5vmax;
+    font-size:1.5vmax;
+}
+.card-2 select{
+    padding: 0.6vmax 5vmax;
+    font-size:1.5vmax;
+}

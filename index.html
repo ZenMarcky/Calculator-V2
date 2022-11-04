@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    
+  <section class="landing">
+
+    <h1>Length Conversion Calculator</h1>
+    <input type="number" placeholder="Input A Number" id="inputer">
+<div class="container">
+    
+<div class="card-1">
+ 
+<select name="" id="selector1">
+    <option value="" selected disabled>From :</option>
+    <option value="mm">Milimiter</option>
+    <option value="cm">Centimeter</option>
+    <option value="m">Meter</option>
+    <option value="km">Kilometer</option>
+    <option value="in">Inch</option>
+    <option value="ft">Foot/Feet</option>
+    <option value="yd">Yard</option>
+    <option value="mi">Mile</option>
+    <option value="nmi">Nautical Mile</option>
+</select>
+</div>
+
+<div class="card-2">
+
+    <select name="" id="selector2">
+        <option value="" selected disabled>To :</option>
+        <option value="mm">Milimiter</option>
+        <option value="cm">Centimeter</option>
+        <option value="m">Meter</option>
+    <!--
+        <option value="km">Kilometer</option>
+        <option value="in">Inch</option>
+        <option value="">Foot/Feet</option>
+        <option value="">Yard</option>
+        <option value="">Mile</option>
+        <option value="">Nautical Mile</option>-->
+    </select>
+</div>
+</div>
+<button onclick="convert()">Convert</button>
+<h5 id="answer">Answer is : 0</h5>
+  </section>
+
+    <script src="./Script/script.js"></script>
+</body>
+</html>
